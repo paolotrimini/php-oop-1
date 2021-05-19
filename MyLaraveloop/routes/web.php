@@ -15,3 +15,6 @@
 
     Route::get('/', 'TestController@home')
         ->name('home');
+
+    Route::get('movies', 'TestController2@home')
+        ->name('home2');
