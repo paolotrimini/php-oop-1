@@ -76,7 +76,7 @@
             foreach ($users as $user) {
                 $str .= $user -> getString() . "\n";
             }
-            dd($str);
+            //dd($str);
             return view("pages.home");
         }
     }

@@ -13,7 +13,7 @@
         public $title;
         public $description;
 
-        public function __construct($title, $description= null) {  // descrizione opzionale
+        public function __construct($title, $description = null) {  // descrizione opzionale
             $this -> title = $title;
 
             if($description == null){
@@ -36,7 +36,7 @@
             $movie3 = new Movie('Soul', '');
 
             dd($movie1, $movie2, $movie3);
+
             return view("pages.home");
         }
-
     }
